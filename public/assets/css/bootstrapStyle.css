@@ -1,0 +1,61 @@
+body {
+    font-family: futura-pt, sans-serif;
+    color: black;
+}
+
+#mainBody {
+    background: url(../images/IMG_9046.jpg) no-repeat center center fixed;
+    /* -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover; */
+    background-size: cover;
+
+}
+
+.navbar {
+    background-color:rgba(152,191,234,0);
+}
+
+.nav-link {
+    color: black;
+}
+
+#logoNav {
+    float: left;
+}
+
+
+#mainTextBox {
+    margin-top: 100px;
+    margin-left: 20%;
+    padding: 10px;
+    height: 250px;
+    width: 55%;
+    background-color: rgba(152,191,234,0.5);
+    opacity: 0.8;
+    position: relative;
+    
+} 
+
+#textLogo {
+
+}
+
+#contentText {
+    float: right;
+    /* margin-top: 30%%; */
+    font-size: 35px;
+    position: absolute; 
+    bottom: 0;
+    right:15px;
+    clear:right
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgba(152,191,234,0.6);
+    color: black;
+}

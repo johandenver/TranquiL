@@ -1,0 +1,67 @@
+/** {
+  font-family: futura-pt, sans-serif;
+}*/
+/* .results-row {
+  padding-top: 150px;
+} */
+
+/* .col s4 {
+  padding-right: 100px;
+} */
+
+/* .page-footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+} */
+/* body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+} */
+
+/* main {
+  flex: 1 0 auto;
+} */
+/* .light-center {
+  position: center;
+}
+.outer {
+  width: 300px;
+  height: 200px;
+  margin: 0 auto;
+}
+.outer .chart-container {
+  width: 300px;
+  /*  float: left;*/
+  /* height: 200px; */
+  /* position: fixed; */
+  /* bottom: 100;
+  left: 20;
+  width: 300px; */
+  /*  border: 3px solid #73AD21;*/
+/* } */
+
+/* .highcharts-yaxis-grid .highcharts-grid-line {
+  display: none;
+} */ 
+
+/* #results-page {
+  background: url(../images/IMG_9493-4.jpg) no-repeat center center fixed;
+  /* -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover; */
+  /* background-size: cover;
+} */ 
+/* @media (max-width: 600px) {
+  .outer {
+    width: 100%;
+    /* height: 400px; */
+  /* }
+  .outer .chart-container {
+    width: 300px;
+    float: none;
+    margin: 0 auto;
+  }
+} */ 

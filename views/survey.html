@@ -1,0 +1,321 @@
+<!doctype html>
+<html lang="en" id="main">
+<head>
+<!-- Required meta tags -->
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    </head>
+
+<!-- Materialize CSS -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+<!-- Adobe Font -->
+<link rel="stylesheet" href="https://use.typekit.net/uyn2mmb.css">
+<!-- Materialize.css sheet -->
+<link type="text/css" rel="stylesheet" href="assets/css/materialize.css" media="screen,projection"/>
+<!-- Materialize Icons -->
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<!-- Custom CSS -->
+<link rel="stylesheet" href="/assets/css/style.css" type="text/css">
+
+<title>Tranquil Survey</title>
+
+</head>
+
+<body id="surveyBody">
+
+    <header>
+        <!-- Header Nav Section    -->
+        <nav class="mainHeader z-depth-0">
+            
+            <div class="nav-wrapper">
+
+                <a href="/" class="brand-logo"><img src="/assets/images/Tranquil_Logo.png" height="auto" width="275" alt="Tranquil"></a>
+
+                <ul id="nav-mobile" class="right hide-on-med-and-down">
+                    <li><a class="white-text" href="/">Logout</a></li>
+                </ul>
+
+            </div>
+
+        </nav>
+
+    </header>
+
+    <main>
+
+        <!-- Survey Carousel -->
+        <div class="carousel carousel-slider center">
+                <!-- Question one -->
+                <div class="carousel-item white-text" href="#one!">
+
+                    <div class="survey-question">
+
+                        <h3 class="white-text">What is your current mood?</h3>
+
+                        <div class="row ">
+                                
+                            <form class="Survey-form" action="#">
+
+                                <p>
+                                    <label>
+                                        <input checked required name="group1" type="radio"  id="" value="4">
+                                        <span Class="emoji">😀</span>>
+                                    </label>
+                                </p>
+                                <p>
+                                    <label>
+                                        <input required name="group1" type="radio"  id="" value="8">
+                                        <span Class="emoji">😐</span>
+                                    </label>
+                                </p>
+                                <p>
+                                    <label>                                                   
+                                        <input required name="group1" type="radio"  id="" value="12">
+                                        <span Class="emoji">🙁</span>
+                                    </label>
+                                </p>
+                                <p>
+                                    <label>
+                                        <input required  name="group1" type="radio"  id="" value="16">
+                                        <span Class="emoji">😡</span>
+                                    </label>
+                                </p>
+                                <p>
+                                    <label>
+                                        <input required name="group1" type="radio"  id="" value="20">
+                                        <span Class="emoji">🤯</span>
+                                    </label>
+                                </p>
+                                <!-- next button to move to next question -->
+                                <a class="btn waves-effect light-blue darken-1 next">Next</a>
+
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <!-- Question two -->
+                <div class="carousel-item  white-text" href="#two!">
+
+                    <div class="survey-question">
+
+                        <h3 class="white-text">How much control do you have for the important things in your life?</h3>
+                        
+                        <div class="row ">
+                            
+                            <form class="Survey-form" action="#">
+                                <p>
+                                    <label>
+                                    <input required name="group1" type="radio" id="" value="20"/>
+                                    <span class="white-text answers">No Control</span>
+                                    </label>
+                                </p>
+                                <p>
+                                    <label>
+                                    <input required name="group1" type="radio" id="" value="16">
+                                    <span class="white-text answers">A Little Control</span>
+                                    </label>
+                                </p>
+                                <p>
+                                    <label>
+                                        <input checked required name="group1" type="radio" id="" value="12"/>
+                                        <span class="white-text answers">Neutral</span>
+                                    </label>
+                                </p>
+                                <p>
+                                    <label>
+                                        <input  required name="group1" type="radio" id="" value="8"/>
+                                        <span class="white-text answers">Some Control</span>
+                                    </label>
+                                </p>
+                                <p>
+                                    <label>
+                                        <input required name="group1" type="radio" id="" value="4"/>
+                                        <span class="white-text answers">Full Control</span>
+                                    </label>
+                                </p>
+
+                                <!-- back/next button to move forard/back to next question -->
+                                <a class="btn waves-effect light-blue darken-1 back">Back</a>
+                                <a class="btn waves-effect light-blue darken-1 next">Next</a>
+
+                            </form> 
+                        </div>
+                    </div>
+                </div>
+                <!-- Question three -->
+                <div class="carousel-item white-text" href="#three!">
+
+                    <div class="survey-question">
+                        <h3 class="white-text">How well rested are you?</h3>
+
+                        <div class="row ">
+        
+                            <form class="Survey-form" action="#">
+                                    <p>
+                                      <label>
+                                        <input required name="group1" type="radio" id="" value="4"/>
+                                        <span class="white-text answers">Well Rested</span>
+                                      </label>
+                                    </p>
+                                    <p>
+                                      <label>
+                                        <input required name="group1" type="radio" id="" value="8"/>
+                                        <span class="white-text answers">Slightly Rested</span>
+                                      </label>
+                                    </p>
+                                    <p>
+                                        <label>
+                                            <input checked required name="group1" type="radio" id="" value="12"/>
+                                            <span class="white-text answers">Neutral</span>
+                                        </label>
+                                    </p>
+                                    <p>
+                                        <label>
+                                            <input required name="group1" type="radio" id="" value="16"/>
+                                            <span class="white-text answers">Somewhat Tired</span>
+                                        </label>
+                                    </p>
+                                    <p>
+                                        <label>
+                                            <input required name="group1" type="radio" id="" value="20"/>
+                                            <span class="white-text answers">Exhausted</span>
+                                        </label>
+                                    </p>
+
+                                    <!-- back/next buttons to move forard/back to next question -->
+                                    <a class="btn waves-effect light-blue darken-1 back">Back</a>
+                                    <a class="btn waves-effect light-blue darken-1 next">Next</a>
+
+                            </form>  
+                        </div>
+                    </div>
+                </div>
+                <!-- Question four -->
+                <div class="carousel-item white-text" href="#four!">
+
+                        <div class="survey-question">
+                            <h3 class="white-text">How often are you upset because of something that happened unexpectedly?</h3>
+    
+                            <div class="row ">
+                                  
+                                <form class="Survey-form" action="#">
+                                        <p>
+                                          <label>
+                                            <input required name="group1" type="radio" id="" value="4" />
+                                            <span class="white-text answers">Never</span>
+                                          </label>
+                                        </p>
+                                        <p>
+                                          <label>
+                                            <input required name="group1" type="radio" id="" value="8">
+                                            <span class="white-text answers">Occasionally</span>
+                                          </label>
+                                        </p>
+                                        <p>
+                                            <label>
+                                                <input checked required name="group1" type="radio" id="" value="12"/>
+                                                <span class="white-text answers">Neutral</span>
+                                            </label>
+                                        </p>
+                                        <p>
+                                            <label>
+                                                <input required name="group1" type="radio" id="" value="16"/>
+                                                <span class="white-text answers">Sometimes</span>
+                                            </label>
+                                        </p>
+                                        <p>
+                                            <label>
+                                                <input required name="group1" type="radio" id="" value="20"/>
+                                                <span class="white-text answers">Very Often</span>
+                                            </label>
+                                        </p>
+
+                                        <!-- back/next buttons to move forard/back to next question -->
+                                        <a class="btn waves-effect light-blue darken-1 back">Back</a>
+                                        <a class="btn waves-effect light-blue darken-1 next">Next</a>
+
+                                </form>  
+                            </div>
+                        </div>
+                    </div>
+                <!-- Question five -->
+                <div class="carousel-item white-text" href="#five!">
+
+                   <div class="survey-question">
+
+                        <h3 class="white-text">How often do you feel nervous and stressed?</h3>
+                        <div class="row ">
+                            
+                            <form class="Survey-form" action="#">
+
+                                <p>
+                                    <label>
+                                    <input required name="group1" type="radio" id="" value="4"/>
+                                    <span class="white-text answers">Never </span>
+                                    </label>
+                                </p>
+                                <p>
+                                    <label>
+                                    <input required name="group1" type="radio" id="" value="8"/>
+                                    <span class="white-text answers">Occasionally</span>
+                                    </label>
+                                </p>
+                                <p>
+                                    <label>
+                                        <input checked required name="group1" type="radio" id="" value="12"/>
+                                        <span class="white-text answers">Neutral</span>
+                                    </label>
+                                </p>
+                                <p>
+                                    <label>
+                                        <input required name="group1" type="radio" id="" value="16"/>
+                                        <span class="white-text answers">Sometimes</span>
+                                    </label>
+                                </p>
+                                <p>
+                                    <label>
+                                        <input required name="group1" type="radio" id="" value="20"/>
+                                        <span class="white-text answers">Very Often</span>
+                                    </label>
+                                </p>
+
+                                <!-- back button to move to prior question -->
+                                <a class="btn waves-effect light-blue darken-1 back">Back</a>
+                                <!-- submit button to submit user survey responses -->
+                                <a class="btn waves-effect light-blue darken-2" id="submit-survey">Submit</a>
+
+                            </form> 
+                        </div>
+                    </div>
+                </div>
+        </div>
+ 
+    </main>
+
+    <!-- Site Footer -->
+    <footer style="position:fixed;bottom:0;left:0;width:100%;">
+           
+        <div class="footer-copyright">
+
+            <div id="footer-content">
+                 © 2019 Copyright
+                 <a class="white-text right" >Created by GLJL Designs.</a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Materialize JavaScript -->
+    <script src="https://code.jquery.com/jquery.js"></script>
+    <!-- <script src="https://code.jquery.com/jquery-3.4.1.slim.js"></script> -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script type="text/javascript">
+        // userId will be the user id that we get back from api request
+        //  window.location.href = '/results/' + userId
+    </script>
+    <script type="text/javascript" src="js/survey.js"></script>
+
+
+</body>
+
+</html>
+

@@ -1,0 +1,27 @@
+{
+  "name": "TranquiL",
+  "version": "1.0.0",
+  "description": "Sometimes we just need to slow life down and take a break from this stressful world. A guided solution for stress management, Tranquil is an app that promotes anything peaceful. Users will complete an assessment to determine stress levels and will be provided with a video to correspond to helping them get to a better state of mind (i.e, Yoga, Mediation, or exercise).",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tangerinez/TranquiL.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Tangerinez/TranquiL/issues"
+  },
+  "homepage": "https://github.com/Tangerinez/TranquiL#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-handlebars": "^3.1.0",
+    "mysql": "^2.17.1",
+    "path": "^0.12.7"
+  }
+}

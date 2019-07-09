@@ -1,0 +1,309 @@
+/* ====== Global body styling ====== */
+body {
+    font-family: futura-pt, sans-serif;
+    color: black;
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+  }
+  
+  main {
+    flex: 1 0 auto;
+  }
+  
+  /* ====== Background Images ====== */
+  
+  #mainBody {
+      background: url(../images/IMG_9046.jpg) no-repeat center center fixed;
+      /* -webkit-background-size: cover;
+          -moz-background-size: cover;
+          -o-background-size: cover; */
+      background-size: cover;
+  }
+  
+  #surveyBody {
+      background: url(../images/IMG_9047-2.jpg) no-repeat center center fixed;
+      /* -webkit-background-size: cover;
+          -moz-background-size: cover;
+          -o-background-size: cover; */
+      background-size: cover;
+  }
+  
+  #results-page {
+      background: url(../images/IMG_9493-4.jpg) no-repeat center center fixed;
+      /* -webkit-background-size: cover;
+          -moz-background-size: cover;
+          -o-background-size: cover; */
+      background-size: cover;
+  }
+  
+  /* ====== Global Navbar styling ====== */
+  
+  .nav-wrapper {
+    padding: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+  
+  .navbar {
+    background-color: rgba(152, 191, 234, 0);
+  }
+  
+  .mainHeader {
+    background-color: rgba(152, 191, 234, 0);
+  }
+  
+  .surveyHeader {
+    background-color: rgba(152, 191, 234, 0);
+  }
+  
+  .nav-link {
+    color: black;
+  }
+  
+  #logoNav {
+    float: left;
+  }
+  
+  /* ======= For Login/Register forms on main page ======== */
+  
+  .login-container {
+    display: flex;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+  }
+  
+  /* .container .row {
+    margin: 0 auto;
+  } */
+  
+  #loginCard {
+    padding: 20px;
+    margin-top: 175px;
+    background-color: rgba(200,217,247,0.8);
+    /* rgba(152, 191, 234, 0.5); */
+    color: black;
+    width: 500px;
+  }
+  
+  /* login-registraion form label color*/
+  .input-field label {
+    color: black;
+  }
+  
+  .input-field [type=text] {
+      color: black;
+  }
+  
+  /* label focus color */
+  .input-field input[type=text]:focus + label {
+  color: #054973 !important;
+  }
+  /* label underline focus color */
+  .input-field input[type=text]:focus {
+  border-bottom: 1px solid #054973 !important;
+  box-shadow: 0 1px 0 0 #054973 !important;
+  }
+  /* valid color */
+  .input-field input[type=text].valid {
+  border-bottom: 1px solid #054973 !important;
+  box-shadow: 0 1px 0 0 #054973 !important;
+  }
+  
+  /* label focus color */
+  .input-field input[type=password]:focus + label {
+  color: #054973 !important;
+  }
+  
+  /* label underline focus color */
+  .input-field input[type=password]:focus {
+  border-bottom: 1px solid #054973 !important;
+  box-shadow: 0 1px 0 0 #054973 !important;
+  }
+  
+  /* valid color */
+  .input-field input[type=password].valid {
+  border-bottom: 1px solid #054973 !important;
+  box-shadow: 0 1px 0 0 #054973 !important;
+  }
+  
+  /* icon prefix focus color */
+  .input-field .prefix.active {
+    color: #054973 !important;
+  }
+  
+  /* class for login error user alert message */
+  small {
+      color: red;
+  }
+  
+  .existing-username-text {
+      color: red !important;
+  }
+  
+  .password-length-wrong {
+      color: red !important;
+  }
+  
+  .wrong-login-info-text {
+      color: red !important;
+  }
+  
+  /* ====== Register Modal ====== */
+  
+  #registerModal {
+    text-align: center;
+  }
+  
+  .modal {
+      margin-top: 50px;
+      height: 600px;
+  }
+  
+  /* ====== CSS for Survey Carousel ====== */
+  .carousel {
+    margin-top: 40px;
+    height: 500px;
+  }
+  
+  .carousel-item {
+    background-color: rgba(5, 73, 115, 0.2);
+    
+    /* rgba(152, 191, 234, 0.4); */
+  }
+  
+  .survey-question {
+    margin-top: 25px;
+  }
+  
+  .emoji {
+    font-size: 60px !important;
+    padding: 10px;
+  }
+  
+  .emoji:hover {
+      transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+    }
+  
+  .answers {
+      font-size: 40px !important;
+  }
+  .answers:hover {
+      transform: scale(1.5); 
+  }
+  
+  #emoji-question label {
+    padding: 5px;
+    cursor: pointer;
+  }
+  
+  [type="radio"]:checked + span:after {
+    border: 2px solid #0277bd;
+    background-color: #0277bd;
+  }
+  
+  .indicators {
+    visibility: hidden;
+  }
+  
+  #contentText {
+    float: right;
+    /* margin-top: 30%%; */
+    font-size: 35px;
+    position: absolute;
+    bottom: 0;
+    right: 15px;
+    clear: right;
+  }
+  /* ====== result card styling ====== */
+  
+  .results-container {
+      top: 0;
+      left: 0;
+      height: 100%;
+      width: 100%;   
+  }
+  
+  .cards-container {
+      margin-bottom: 15px;
+  }
+  
+  .results-row {
+      width: 100%;
+      padding-top: 50px;
+  }
+  
+  .result-card {
+      width: 400px;
+      height: 435px;
+      padding: 15px;
+      margin: 10px;
+      align-content: center;
+      background-color: rgba(5, 73, 115, 0.7);
+      font-size: 16px;
+  }
+  
+  .card-content {
+      padding: 20px;
+  }
+  
+  /* Retake Survey Button */
+  #retake-survey {
+      margin-top: 15px;
+  }
+  
+  .light-center {
+  margin-top: 10px;
+  position: center;
+  }
+  
+  /* styling for results gauge graphic */
+  .outer {
+  width: 300px;
+  height: 200px;
+  margin: 0 auto;
+  }
+  
+  .outer .chart-container {
+  width: 300px;
+  /*  float: left;*/
+  height: 200px;
+  /* position: fixed; */
+  bottom: 100;
+  left: 20;
+  width: 300px;
+  /*  border: 3px solid #73AD21;*/
+  }
+  
+  .highcharts-yaxis-grid .highcharts-grid-line {
+  display: none;
+  }
+  
+  
+  
+  /* ====== Global footer styling ====== */
+  footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    /* background-color: rgba(152, 191, 234, 0.6); */
+    background-color: rgba(5,73,115,0.6);
+    color: white;
+    height: 40px;
+    margin-top: 20px;
+  }
+  
+  #footer-content {
+    padding: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  
+  .hide {
+      display: none;
+  }
+  
